@@ -1,0 +1,43 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    position: relative; /* Make the container the positioning context */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.strongText {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.paragraph {
+    margin: 5px 0;
+}
+
+.title {
+    font-size: 1.5rem;        /* Larger font size for emphasis */
+    font-weight: bold;        /* Bolder text */
+    color: #333;              /* Darker color for contrast */
+}
+
+.time {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
