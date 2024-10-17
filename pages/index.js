@@ -12,9 +12,9 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://bitcoin-price-compare-backend.onrender.com/api/prices');
+        const response = await fetch('https://shdxwxrxkhbyrqecjwbp.supabase.co/functions/v1/bitcoin-prices'); 
         const data = await response.json();
-        setPrices(data.prices);
+        setPrices(data);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
